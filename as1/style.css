@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto; /* 上下為0左右自動（置中） */
+}
+
+#banner{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    height: 200px;
+    clear: both;
+    position: fixed;
+    top: 0px;
+}
+
+#banner-placeholder{
+    height: 200px;
+    background-color:grey;
+}
+
+.container{
+    overflow: hidden; /* Clear floats */ 
+}
+
+#nav {
+    background-color: rgb(198, 220, 235);
+    width: 100px;
+    float: left;
+}
+
+#content {
+    background-color: wheat;
+    width: 600px;
+    height: 1000px;
+    float: left;
+}
+
+#supporting{
+    background-color: lightgoldenrodyellow;
+    width: 100px;
+    float: left;
+}
+
+#footer{
+    background-color: lightgrey;
+    width: 800px;
+    height: 50px;
+    clear: both;
+}
