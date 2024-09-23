@@ -11,37 +11,67 @@ html, body {
 #banner{
     background-color: rgba(0, 0, 0, 0.5);
     width: 800px;
-    height: 200px;
+    height: 100px;
     clear: both;
     position: fixed;
-    top: 0px;
+    /* top: 0px; */
 }
 
 #banner-placeholder{
-    height: 200px;
-    background-color:grey;
+    height: 100px;
 }
 
-.container{
-    overflow: hidden; /* Clear floats */ 
+.container {
+	overflow: hidden;  /* Clear floats */
+}
+
+.text-container{ /*任何只要有text-containter的地方，padding都會是5px*/
+    padding: 5px;
 }
 
 #nav {
-    background-color: rgb(198, 220, 235);
+    /* background-color: rgb(198, 220, 235); */
     width: 100px;
-    float: left;
+    position:fixed;
+}
+
+#nav-placeholder{
+    /* background-color: rgb(198, 220, 235); */
+    width:100px;
+    float:left;
+}
+
+ul{
+    list-style-type: none; /* 移除項目符號 */
+    padding: 0;
+}
+
+li{
+    display: block; /* 顯示為區塊，可以設定每一個Scene小區塊的高度（原本是文字多高就多高） */
+    text-align: center; /* 文字置中 */
+    margin-bottom: 5px;
+    background-color: lightsteelblue;
+}
+
+li a{
+    text-decoration: none; /* 移除連結底線 */
+}
+
+li:hover {  /* 滑鼠移過時的效果 */
+    background-color:sandybrown;
 }
 
 #content {
     background-color: wheat;
     width: 600px;
-    height: 1000px;
+    /* height: 1000px; */
     float: left;
 }
 
 #supporting{
     background-color: lightgoldenrodyellow;
     width: 100px;
+    height: 150px;
     float: left;
 }
 
@@ -50,4 +80,11 @@ html, body {
     width: 800px;
     height: 50px;
     clear: both;
+}
+
+section{
+    height: 100vh;
+    padding-top: 100px;
+    margin-top: -100px;
+    position: relative;
 }
