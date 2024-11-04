@@ -1,0 +1,33 @@
+.banner {
+    background-image: url('background-image/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* 設定背景圖片 */
+.bg {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 確保 intro 區域的高度 */
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+}
