@@ -1,0 +1,42 @@
+#leading-section, #middle-section, #ending-section {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.bg-200{
+    height: 200vh;
+    display: flex;
+}
+
+.bg-100 {
+    height: 100vh;
+    display: flex;
+}
+
+.text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#video1, #video2 {
+    position: relative; /* Initial position is relative for flow */
+    z-index: 10; /* Ensures the video stays on top of other content */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    width: 100%; /* Make sure video container fills the full width */
+}
+
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
